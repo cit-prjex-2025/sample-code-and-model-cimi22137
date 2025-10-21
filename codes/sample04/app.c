@@ -61,7 +61,7 @@ void tracer_run(void) {
 
 void tracer_stop(void) {
   driver_stop();
-  horn_confirmation();
+  horn_arrived();
 }
 
 typedef enum { // <1>
